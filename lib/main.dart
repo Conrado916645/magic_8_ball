@@ -19,6 +19,11 @@ class _MyAppState extends State<MyApp> {
           title: Text('Magic 8 ball'),
           backgroundColor: Colors.blue,
         ),
+        body: Center(
+          child: FlatButton(
+            child: Image.asset('images/ball1.png'),
+          ),
+        ),
       ),
     );
   }
