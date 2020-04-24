@@ -12,6 +12,14 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blue,
+        appBar: AppBar(
+          title: Text('Magic 8 ball'),
+          backgroundColor: Colors.blue,
+        ),
+      ),
+    );
   }
 }
