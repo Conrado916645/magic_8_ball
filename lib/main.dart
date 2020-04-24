@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
           child: FlatButton(
             onPressed: (){
               setState(() {
-                random_value = random.nextInt(4)+1;
+                random_value = random.nextInt(5)+1;
               });
             },
             child: Image.asset('images/ball$random_value.png'),
